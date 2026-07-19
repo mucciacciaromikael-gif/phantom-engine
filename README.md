@@ -1,28 +1,41 @@
 # Phantom Engine  
 
-Phantom Engine est un moteur de jeu en C destiné à créer des jeux dans un terminal Linux.  
+A ligthweight modular game engine written in C for linux terminal games.  
 
-## Objectifs  
+## Overview  
 
-- Moteur léger
-- Architecture modulaire
-- Réutilisable pour plusieurs jeux
-- Compatible terminal ANSI
-- Facile à comprendre et modifier
+Phantom Engine is designed to create terminal-based games using ANSI rendering  
+The goal is to provide a simple but powerful archictecture that can be reused for:  
 
-## Fonctionnalités actuelles
+- Tower Defense games
+- Roguelikes
+- RPGs
+- Simulation games
+- Creepy experiences
 
-Version : 0.0.1  
+## Features  
 
-- [x] Gestion du terminal
-- [x] Couleurs ANSI
-- [x] Contrôle du curseur
-- [ ] Frame Buffer
-- [ ] Système d'entrée clavier
-- [ ] Gestion du temps
-- [ ] Système d'entités
+Current version : 0.0.1  
 
-## Compilation
+- ANSI terminal rendering
+- Cursor control
+- Terminal abstraction
+- Basic color suport
 
-```bash
-make
+### Planned  
+
+- Frame Buffer
+- Input System
+- Entity system
+- Scene management
+- Physics
+- Save system
+
+## Philosophy
+
+Phantom Engine focuses on:  
+
+- Modularity
+- Simplicity
+- Learning
+- Reusability
