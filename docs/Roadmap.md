@@ -1,5 +1,5 @@
 # Roadmap
-## Version `0.0.1` - Foundation
+## Version `0.0.1` - Initial renderer
 Completed:  
 
 - [x] ~~Project cration~~
@@ -7,7 +7,7 @@ Completed:
 - [x] ~~ANSI color support~~
 - [x] ~~Cursor control~~  
 
-## Version `0.0.2` - Rendering
+## Version `0.0.2` - Pixel framebuffer
 Planned:  
 
 - [ ] Frame Buffer
@@ -23,7 +23,7 @@ Planned:
 - [ ] Delat time
 - [ ] FPS management
 
-## Version `0.1.0` - First Game
+## Version `0.1.0` - First playable demo
 Planned:  
 
 - [ ] Entity system
@@ -39,7 +39,7 @@ Possible features:
 * Sound support
 * Multiple terminal platforms  
 
-"Just a thought" features:  
+### "Just a thought" features:  
 
 * Multiplayer system
 * 3D rendering system  
